@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg="tf" type="static_transform_publisher" name="back_right" args="-1.75 -0.8 0.0 -2.30 0.0 3.14 vehicle_centre sick_rear_right" />
+<node pkg="tf" type="static_transform_publisher" name="front_right" args="1.85 -0.93 0.0 -0.76 0.0 3.14 vehicle_centre sick_front_right" />
+<node pkg="tf" type="static_transform_publisher" name="front_left" args="1.85 0.93 0.0 0.81 0.0 3.14 vehicle_centre sick_front_left" />
+<node pkg="tf" type="static_transform_publisher" name="back_left" args="-1.85 0.93 0.0 2.38 0.0 3.14 vehicle_centre sick_rear_left" />
+
+</launch>
